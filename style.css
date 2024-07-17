@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/roboto-black-webfont.woff2') format('woff2'),
+    url('assets/fonts/roboto-black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('assets/fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/roboto-medium-webfont.woff2') format('woff2'),
+    url('assets/fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Content */
+
+body {
+  background-color: #bebebe;
+  font-family: 'Roboto', sans-serif;
+  color: #414141;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+nav,
+footer {
+  color: #bebebe;
+  background-color: #414141;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+nav a,
+footer a {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+nav a:hover,
+footer a:hover {
+  color: #ece8e8;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+.lorem {
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 700px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.bekezdeskoz {
+  text-indent: 2em;
+}
+
+.red {
+  color: red;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}
+
+.image1 {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image2 {
+  width: 50%;
+  border-radius: 8px;
+  float: left;
+  margin-right: 20px;
+}
+
+.image3 {
+  width: 50%;
+  border-radius: 8px;
+  float: right;
+  margin-left: 20px;
+}
+
+.lorem3 {
+  border: 1px solid black;
+  padding: 20px;
+  filter: blur(4px);
+}
+
+/* Form */
+
+h2.form {
+  text-align: left;
+}
+
+.blokk {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+}
+
+.kor {
+  width: 50px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  display: block;
+}
+
+label.required::after {
+  content: ' *';
+  color: red;
+}
