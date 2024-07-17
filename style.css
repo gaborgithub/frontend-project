@@ -30,6 +30,8 @@
   font-style: normal;
 }
 
+/* Content */
+
 body {
   background-color: #bebebe;
   font-family: 'Roboto', sans-serif;
@@ -44,6 +46,10 @@ footer {
   color: #bebebe;
   background-color: #414141;
   padding: 10px;
+}
+
+footer {
+  margin-top: 60px;
 }
 
 nav a,
@@ -74,7 +80,7 @@ p {
   line-height: 1.8em;
 }
 
-div {
+.lorem {
   margin-bottom: 60px;
 }
 
@@ -119,4 +125,36 @@ div {
   border: 1px solid black;
   padding: 20px;
   filter: blur(4px);
+}
+
+/* Form */
+
+h2.form {
+  text-align: left;
+}
+
+.blokk {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+}
+
+.kor {
+  width: 50px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  display: block;
+}
+
+label.required::after {
+  content: ' *';
+  color: red;
 }
